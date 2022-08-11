@@ -6,7 +6,7 @@ import styles from '../static/Header.module.css'
 const Header = (props) => {
   return (
     <header className={styles.page}>
-      <img className={styles.logo} src="/logo@1x.png" srcset="/logo@2x.png 2x, /logo@3x.png" alt="BM" />
+      <img className={styles.logo} src="/logo@1x.png" srcset="/logo@2x.png 2x, /logo@3x.png 3x" alt="BM" />
       <H1 text={'Cards'}/>
       <Nav />
     </header>

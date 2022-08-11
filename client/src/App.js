@@ -15,7 +15,7 @@ const people = [
 
  // if people, make the UL and fill it
 
-let cards = people.map((person, index) => {return <Card key={index} name={person.name} age={person.age} />});
+let cards = people.map((person, index) => <Card key={index} name={person.name} age={person.age} />)
 
 
 function App() {
